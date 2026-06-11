@@ -14,6 +14,15 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy the rest of the application code
 COPY . .
 
+# Environment variables configuration
+ENV TV_IP="" \
+    TV_MAC="" \
+    TV_KEY="" \
+    MY_PC_IP="" \
+    MY_PC_MAC="" \
+    DAD_PC_IP="" \
+    DAD_PC_MAC=""
+
 # Expose the port that the application runs on
 EXPOSE 8080
 
