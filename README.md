@@ -1,5 +1,8 @@
 # TV & PC Control API
 
+> [!NOTE]
+> This is a random personal project shared publicly. It is no longer actively maintained but is published in case it might be useful to someone else!
+
 A lightweight FastAPI application designed to control LG WebOS TVs and wake local PCs using Wake-on-LAN (WoL).
 
 ## Features
