@@ -2,6 +2,8 @@
 
 > [!NOTE]
 > This is a random personal project shared publicly. It is no longer actively maintained but is published in case it might be useful to someone else!
+>
+> Originally, this API was used to integrate TV and PC controls with **Home Assistant**. The provided Docker configuration is fully ready to be deployed on any home server (like a Raspberry Pi or local server) for Home Assistant or any other home automation system.
 
 A lightweight FastAPI application designed to control LG WebOS TVs and wake local PCs using Wake-on-LAN (WoL).
 
